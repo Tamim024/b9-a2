@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+body {
+    max-width: 1100px ;
+    margin: 20px 150px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-logo {
+    display: flex;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;    
+}
+.t{
+    color: orangered;
+}
+.title{
+    font-size: 36px;
+}
+.title-logo img{
+    margin-right: 20px;
+    width: 60px;
+    height: 50px;
+}
+.nav-bar {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+.nav-bar li{
+    margin-left: 20px;
+    font-weight: 400px;
+    font-size: 1rem;
+}
+.banner {
+    background-color: gray;
+    background: url(../b9-a2/Images/Group13\(1\)\ \(1\).png);
+    border-radius: 14px;
+    background-position: center;
+    background-size: 100%;
+    height: 480px;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+.banner-title{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3.8rem;
+    
+}
+.des {
+    color: white;
+    max-width: 600px;
+    text-align: center;
+    padding-left: 247px;
+}
+.button {
+    
+    width: 200px;
+    height: 60px;
+    
+    border-radius: 10px;
+    
+    color: steelblue;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}   
+.button-o {
+    background: #FF900E;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: white;
+}
+.button-s {
+    color: steelblue;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 140px;
+    padding-bottom: 30px;
+    align-items: center;
+    gap: 9px;
+    margin-top: 25px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    
+}
+.sec {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.content{
+    width: 450px;
+}
+.list {
+    font-size: 01rem;
+    color: rgb(49, 49, 49);
+}
+.button-oo {
+    background: #FF900E;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+}
+.destination {
+    padding-top: 40px;
+    align-items: center;
+    text-align: center;
+    
+    
+}
